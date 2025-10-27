@@ -16,7 +16,7 @@
 ### Из исходного кода
 
 ```bash
-git clone https://github.com/your-username/cipher.git
+git clone https://github.com/Lewis-star-alt/cipher.git
 cd cipher
 cargo build --release
 ```

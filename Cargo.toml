@@ -2,12 +2,12 @@
 name = "cipher"
 version = "1.0.0"
 edition = "2021"
-authors = ["Ваше Имя <your.email@example.com>"]
+authors = ["Lewis kirilka.cotow@yandex.ru"]
 description = "Мощная консольная утилита для шифрования и дешифрования с использованием подстановочных шифров"
 readme = "README.md"
 keywords = ["шифрование", "криптография", "шифр", "cli", "консоль"]
 categories = ["command-line-utilities", "cryptography"]
-repository = "https://github.com/your-username/substitution-cipher"
+repository = "https://github.com/Lewis-star-alt/cipher"
 
 [dependencies]
 clap = { version = "4.4", features = ["derive"] }
