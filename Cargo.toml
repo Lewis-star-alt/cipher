@@ -1,0 +1,18 @@
+[package]
+name = "cipher"
+version = "1.0.0"
+edition = "2021"
+authors = ["Ваше Имя <your.email@example.com>"]
+description = "Мощная консольная утилита для шифрования и дешифрования с использованием подстановочных шифров"
+readme = "README.md"
+keywords = ["шифрование", "криптография", "шифр", "cli", "консоль"]
+categories = ["command-line-utilities", "cryptography"]
+repository = "https://github.com/your-username/substitution-cipher"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+anyhow = "1.0"
+
+[[bin]]
+name = "cipher"
+path = "src/main.rs"
